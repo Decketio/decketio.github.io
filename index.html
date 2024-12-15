@@ -1,0 +1,95 @@
+<html>
+
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Lobster|Roboto|Roboto:300|Roboto+Condensed' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title>The root of all procrastination.</title>
+
+	<script>
+	window.addEventListener('preload', function load() {
+	window.removeEventListener('preload', load, false);
+	document.body.classList.remove('preload');
+	}, false);
+	function getfocustxt()
+{
+	document.getElementById("text1").focus();
+}
+	</script>
+</head>
+
+<body class="preload">
+<body onload="getfocustxt();">
+<h1>Welcome, Decketio.</h1>
+<div id="boxes">
+
+	<div class="box"><h4>Daily</h4>
+		<ul>
+			<li><a href="http://www.youtube.com/feed/subscriptions"> Youtube </a></li>
+			<li><a href="https://bsky.app/"> Bluesky </a></li>
+			<li><a href="https://outlook.live.com/owa/"> Live </a></li>
+			<li><a href="https://www.gmail.com"> Gmail </a></li>
+			<li><a href="https://www.protonmail.com"> Proton </a></li>
+		</ul>
+	</div>
+
+	<div class="box"><h4>Stream</h4>
+		<ul>
+			<li><a href="https://www.twitch.tv/decketio"> Channel </a></li>
+			<li><a href="https://dashboard.twitch.tv/u/decketio/home"> Dashboard </a></li>
+			<li><a href="https://streamelements.com/dashboard/welcome-back"> StreamElements </a></li>
+			<li><a href="https://www.twitch.tv/directory/following/live"> Following </a></li>
+		</ul>
+	</div>
+
+
+
+	<div class="sbox"><h4>Search</h4>
+		<table id="search">
+
+			<tr>
+				<td><a href="https://www.google.com">Google</a></td>
+				<td>
+					<form action="https://www.google.com/search" method="get">
+					<input type="text" id="text1" name="q" autofocus /></form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td><a href="https://www.youtube.com">Youtube</a></td>
+				<td>
+					<form action="https://youtube.com/search" method="get">
+					<input type="text" name="q" /></form>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+
+	<div class="box"><h4>Gaming</h4>
+		<ul>
+			<li><a href="http://store.steampowered.com/"> Steam Store </a></li>
+			<li><a href="http://www.seventhsanctum.com/"> Character Names </a></li>
+			<li><a href="http://www.humblebundle.com/"> Humble Bundle </a></li>
+			<li><a href="https://www.greenmangaming.com/"> GMG </a></li>
+			<li><a href="https://www.lorenzostanco.com/lab/steam/"> Game Filters </a></li>
+		</ul>
+	</div>
+
+
+	<div class="box"><h4>Misc</h4>
+		<ul>
+			<li><a href="https://www.amazon.com/"> Amazon </a></li>
+			<li><a href="https://wallhaven.cc/"> Wallhaven </a></li>
+			<li><a href="https://www.accuweather.com/"> Weather </a></li>
+			<li><a href="https://coolors.co/app"> Color Schemes </a></li>
+			<li><a href="https://old.reddit.com/r/Piracy/wiki/megathread"> Piracy Megathread </a></li>
+		</ul>
+	</div>
+		</ul>
+	</div> 
+</div>
+
+</body>
+
+</html>
